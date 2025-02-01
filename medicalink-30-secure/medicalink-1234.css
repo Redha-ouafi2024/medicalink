@@ -203,6 +203,12 @@
         }
 
 
+.carousel:hover {
+    animation-play-state: paused; /* إيقاف الحركة عند التمرير */
+}
+
+
+
          .carousel-btn:hover {
           background-color: rgba(135, 206, 235, 0.8);
 }
@@ -241,10 +247,10 @@ border: 1px solid ; color: black;
 
 
     0% {
-        transform: translateX(0%);
+        transform: translateX(-100%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
 
